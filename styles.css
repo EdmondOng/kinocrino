@@ -1,0 +1,123 @@
+body {
+    font-size: 1.5em;
+    margin: 0px;
+    font-family: Arial,serif;
+}
+
+div {
+    padding: 2% 2%;
+}
+
+.Top {
+    padding: 15% 0% 5% 0%;
+    text-align: center;
+}
+
+.hd {
+    padding: 2% 0% 0% 0%;
+    position: fixed;
+    text-align: center;
+    margin: -15% auto auto auto;
+    background: #FDFDFD;
+    width: 100%;
+}
+
+h1 {
+    margin: 0px;
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.Middle {
+    background-color: rgb(215, 253, 253);
+    position: inherit;
+}
+
+.Bottom {
+    background-color: #6c7b95;
+}
+
+.underline {
+    text-decoration-line: underline;
+}
+
+.camera {
+    width: 5%;
+}
+
+.flower {
+    position: static;
+    width: 20%;
+}
+
+.Services {
+    margin: 0px;
+    width: 50%;
+    text-align: left;
+    margin: 0 auto 0 auto;
+}
+
+.type-services {
+    padding: 10%;
+}
+
+.pt {
+    width: 50%;
+    margin-left: 30px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.description {
+    padding-bottom: 50px;
+    width: 40%;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 450px) {
+    h1 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.5rem;
+    }
+
+    .flower {
+        width: 10%;
+    }
+
+    .Services {
+        font-size: 0.7rem;
+    }
+
+    .description, .Bottom {
+        font-size: 0.5rem;
+        padding-bottom: 10px;
+    }
+
+    .type-services {
+        padding: 0%;
+    }
+
+    .Services {
+        text-align: center;
+    }
+
+    .pt {
+        width: 50%;
+        margin-left: 45px;
+        display: block;
+        position: 0 auto 0 auto;
+    }
+}
