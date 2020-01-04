@@ -1,5 +1,5 @@
 body {
-    font-size: 1.5em;
+    font-size: 2.5em;
     margin: 0px;
     font-family: Arial,serif;
 }
@@ -35,7 +35,7 @@ h3 {
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .Middle {
@@ -95,7 +95,7 @@ p {
 }
 
 .image-container {
-    width: 410px;
+    width: 420px;
     height: 291px;
     position: relative;
 }
@@ -106,8 +106,8 @@ p {
 }
 
 .slider-button {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background-color: #FDFDFD;
     border-radius: 30px;
     z-index: 99;
@@ -126,11 +126,11 @@ p {
 
 @media only screen and (max-width: 450px) {
     h1 {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     p {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .flower {
@@ -138,11 +138,11 @@ p {
     }
 
     .Services {
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
 
     .description, .Bottom {
-        font-size: 0.8rem;
+        font-size: 1rem;
         padding-bottom: 10px;
     }
 
