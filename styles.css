@@ -156,9 +156,40 @@ p {
     }
 
     .pt {
-        width: 50%;
-        margin-left: 45px;
-        display: block;
-        position: 0 auto 0 auto;
+        border-radius: 30px;
+        display: inline-block;
+        margin: 0px;
+        padding: 0px;
     }
+
+    .image-container {
+        width: 410px;
+        height: 291px;
+        position: relative;
+        transition: left 2s;
+    }
+    
+    .button-container {
+        position: relative;
+        top: -60px;
+    }
+
+    .slider-container {
+        width: 210px;
+        height: 350px;
+        overflow: hidden;
+        margin: 0% auto 0% auto;
+        padding: 2% 0%;
+    }
+    
+    .slider-button {
+        width: 10px;
+        height: 10px;
+        background-color: #FDFDFD;
+        border-radius: 30px;
+        z-index: 99;
+        position: relative;
+        display: inline-block;
+    }
+    
 }
