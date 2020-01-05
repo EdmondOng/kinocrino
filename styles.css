@@ -9,17 +9,17 @@ div {
 }
 
 .Top {
-    padding: 15% 0% 5% 0%;
+    padding: 0% 0% 5% 0%;
     text-align: center;
 }
 
 .hd {
-    padding: 2% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
     position: fixed;
     text-align: center;
-    margin: -15% auto auto auto;
     background: #FDFDFD;
     width: 100%;
+    z-index: 99;
 }
 
 h1 {
@@ -35,8 +35,14 @@ h3 {
 
 }
 
+#hello {
+    padding: 15% 0% 0% 0%;
+    position: relative;
+}
+
 p {
     font-size: 2rem;
+    position: relative;
 }
 
 .Middle {
@@ -111,7 +117,7 @@ p {
     height: 30px;
     background-color: #FDFDFD;
     border-radius: 30px;
-    z-index: 99;
+    z-index: 98;
     position: relative;
     display: inline-block;
 }
@@ -125,9 +131,22 @@ p {
 }
 
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 572px) {
+    .Top {
+        padding: 15% 0% 5% 0%;
+    }
+    
     h1 {
         font-size: 2.5rem;
+    }
+
+    .hd {
+        margin: -17% auto auto auto;
+    }
+
+    #hello {
+        font-size: 1rem;
+        padding: 10% 0% 0% 0%;
     }
 
     p {
