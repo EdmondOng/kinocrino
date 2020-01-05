@@ -11,6 +11,7 @@ div {
 .Top {
     padding: 0% 0% 5% 0%;
     text-align: center;
+    position: relative;
 }
 
 .hd {
@@ -59,7 +60,7 @@ p {
 }
 
 .camera {
-    width: 5%;
+    width: 10%;
 }
 
 .flower {
@@ -133,7 +134,8 @@ p {
 
 @media only screen and (max-width: 572px) {
     .Top {
-        padding: 15% 0% 5% 0%;
+        text-align: center;
+        position: relative;
     }
     
     h1 {
@@ -141,20 +143,25 @@ p {
     }
 
     .hd {
-        margin: -17% auto auto auto;
+        padding: 5% 0% 5% 0%;
+        margin: 0% auto auto auto;
     }
 
     #hello {
         font-size: 1rem;
-        padding: 10% 0% 0% 0%;
+        padding: 55% 0% 0% 0%;
     }
 
     p {
         font-size: 1rem;
     }
 
-    .flower {
+    .camera {
         width: 10%;
+    }
+
+    .flower {
+        width: 20%;
     }
 
     .Services {
@@ -211,4 +218,25 @@ p {
         display: inline-block;
     }
     
+}
+
+@media only screen and (min-width: 301px) and (max-width: 571px) {
+    #hello {
+        font-size: 1rem;
+        padding: 50% 0% 0% 0%;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 500px) {
+    #hello {
+        font-size: 1rem;
+        padding: 40% 0% 0% 0%;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 571px) {
+    #hello {
+        font-size: 1rem;
+        padding: 35% 0% 0% 0%;
+    }
 }
